@@ -9,7 +9,7 @@ export const profile = {
   tagline:
     'I have a strong interest in artificial intelligence, machine learning, and technical writing. I build ideas into solutions, explore new possibilities through research, and contribute to communities shaping the future of technology.',
   email: 'tracyamutuhaire98@gmail.com',
-  photo: '/tracy-profile.png',
+  photo: 'tracy-profile.png',
   cvUrl: null,
   socials: [
     { label: 'LinkedIn', href: null },

@@ -8,7 +8,7 @@ export default function Hero() {
       className="relative -mt-32 overflow-hidden pt-32"
     >
       <img
-        src="/hero-background.png"
+        src={`${import.meta.env.BASE_URL}hero-background.png`}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 h-full w-full object-cover object-center opacity-50"
@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="glass-panel relative aspect-square overflow-hidden rounded-full p-2.5">
             {profile.photo ? (
               <img
-                src={profile.photo}
+                src={`${import.meta.env.BASE_URL}${profile.photo}`}
                 alt={`Portrait of ${profile.name}`}
                 className="h-full w-full rounded-full object-cover object-[33%_center]"
               />

@@ -23,7 +23,7 @@ export default function Nav() {
           aria-label={`${profile.name}, back to top`}
         >
           <img
-            src={profile.photo}
+            src={`${import.meta.env.BASE_URL}${profile.photo}`}
             alt=""
             className="h-9 w-9 rounded-full border border-gold/60 object-cover object-[33%_center]"
           />
